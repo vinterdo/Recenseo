@@ -1,3 +1,39 @@
-$body-bg: #F9FBF2;
+@import "custom";
+@import "palette";
 
-@import "~bootstrap/scss/bootstrap";
+#mainContainer {
+  padding: 0;
+  #mainJumbo {
+    background: $primary-1;
+  }
+
+  #headerRow {
+    margin: 0;
+    box-shadow: 0 0 4rem 0 rgba(0, 0, 0, 0.5);
+  }
+}
+
+.loginHeader {
+  background: $primary-4;
+}
+
+.loginBox {
+  margin-top: 4rem;
+  background: $primary-2;
+  box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.5);
+  input {
+    width: 100%;
+  }
+
+  .row {
+    padding: 0.5rem;
+  }
+
+  .loginHeader {
+    background: $primary-4;
+    padding: 0;
+    .loginHeaderText {
+      padding: 0.5rem;
+    }
+  }
+}

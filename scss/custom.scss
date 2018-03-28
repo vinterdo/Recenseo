@@ -1,1 +1,9 @@
+@import "palette";
+
+$body-bg: $primary-2;
+$body-color: $text-color;
+$primary: $primary-1;
+$secondary: $secondary-color;
+$navbar-dark-color: $text-color;
+
 @import "~bootstrap/scss/bootstrap";
